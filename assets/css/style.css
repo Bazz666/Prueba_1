@@ -23,4 +23,9 @@ body {
 }
 nav ul li a{
     color:#FFFFFF !important;
-} 
+}
+
+.img-nav{
+width: 30px;
+height:30px;
+}
