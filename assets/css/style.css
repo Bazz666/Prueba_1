@@ -1,7 +1,15 @@
 body {
     font-family: 'raleway', sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
      }
 
 .barra {
     background-color: transparent !important;
+   
+}
+
+.hr{
+    color: teal;
+    
 }
