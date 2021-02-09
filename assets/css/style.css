@@ -14,3 +14,9 @@ body {
     height: 40%;
     text-align: center;
 }
+.icons {
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+}
