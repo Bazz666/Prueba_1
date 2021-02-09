@@ -2,14 +2,6 @@ body {
     font-family: 'raleway', sans-serif;
      }
 
-.carousel-indicators {
-    top: 500px;
-    }
-
-.carousel-indicators li.indicator {
-    margin-top: 50px;
-    width: 10px;
-    height: 10px;
-    background-color: #333a40;
-    border-radius: 50%;
+.barra {
+    background-color: transparent !important;
 }

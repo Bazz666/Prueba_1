@@ -14,35 +14,82 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top px-3 py-3">
-        <div class="container ">
-             <a class="navbar-brand" href="#"> viajes chile</a>
+    <div>
+        <nav class=" barra navbar navbar-expand-lg navbar-light bg-light fixed-top px-3 py-3">
+            <div class="container ">
+                <a class="navbar-brand" href="#"> viajes chile</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse text-white font-wight-bold"  id="navbarNav">
-                <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#info">Quienes somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#destacados">destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">contacto</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse text-white font-wight-bold"  id="navbarNav">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#info">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destacados">destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+
+        <div class="carrusel">
+            <div class="carusel ">
+                    <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-none d-md-block" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicator"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicator"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicator"></li>
+
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <img src="assets/img/carousel1.jpg" class="card-img-top img-fluid"alt="slider-1"> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <img src="assets/img/carousel2.jpg" class="card-img-top img-luid" alt="slider-2"> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <img src="assets/img/carousel3.jpg" class="card-img-top img-luid" alt="slider-3"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
         </div>
-    </nav>
+
+        <section id="info">
+            <h1>¿Quienes Somos?</h1>
+
+            
 
 
 
+        </section>
+
+
+    </div>
     <!--jquery, boostrapjava, mi estilo js-->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
     crossorigin="anonymous"></script>
