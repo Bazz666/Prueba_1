@@ -1,4 +1,4 @@
-$(function(){
+$(function(){  // smooth scrolling del mouse
 
     $("a").click(function(event){ 
         if (this.hash !== "") {
